@@ -1,0 +1,107 @@
+header{
+    background-color: rgb(64, 194, 227);
+    color: black;
+     padding: 10px; 
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    border-radius: 2em;
+    padding-top: 0px;
+}
+ul li h2{
+    
+   
+   color: yellow;
+   
+}
+#head{
+    display: flex;
+    flex-wrap: wrap;
+    padding: top 0px;;
+    text-align: center;
+}
+h2#port{
+ padding-right: 60vw;
+ padding-left: 2vw;
+ font-size: 1.8em;
+    
+}
+h2#port:hover{
+    color: goldenrod;
+ text-decoration: underline;
+ text-shadow: 3px 3px 5px black;
+ font-size: 2em;
+}
+h2#name:hover{
+ color: goldenrod;
+ text-decoration: underline;
+ text-shadow: 3px 3px 5px black;
+ font-size: 2em;
+
+}
+h1{
+    padding-top: 0px;
+    text-shadow: 3px 3px 5px black;
+     /* 3px 3px 1px black; */
+     
+}
+nav{
+    background-color: rgb(64, 194, 227);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    overflow: auto;
+}
+li{
+    /* text-wrap: normal; */
+    list-style: none;
+    padding: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-family: serif;
+}
+a:hover{
+    color: black;
+    font-size: 2em;
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px black;
+
+
+}
+ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 10px;
+}
+main{
+    text-align: center;
+    padding: 10px;
+
+}
+section{
+    border: 5px solid black;
+    border-radius: 2em;
+    text-align: center;
+    overflow: auto;
+    margin: 1em;
+    height: 5%;
+    padding: 5px;
+}
+section:hover{
+    color: rgb(41, 40, 40);
+    font-weight: bold;
+    font-family: serif;
+    background-color: seashell;
+}
+footer{
+    background-color: rgb(64, 194, 227);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    border-radius: 3em;
+
+}
